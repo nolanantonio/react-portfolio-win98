@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "W98";
+    src: url("../src/assets/fonts/MSW98UI-Regular.ttf");
+}
+@font-face {
+    font-family: "W98Bold";
+    src: url("../src/assets/fonts/MSW98UI-Bold.ttf");
+}
+@layer components {
+  .chrome-edge {
+    @apply border-l-3 border-l-white border-t-3 border-t-white border-r-4 border-r-gray-600 border-b-4 border-b-gray-600;
+    &:active {
+      @apply border-t-gray-600 border-l-gray-600;
+    }
+  }
+}
+@theme{
+    --font-win98: 'W98', sans-serif;
+    --font-win98-bold: 'W98Bold', sans-serif;
+}
