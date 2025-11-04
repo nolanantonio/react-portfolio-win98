@@ -1,4 +1,4 @@
-function Action_Bar() {
+function Taskbar() {
     return (
         <div className="absolute bottom-0 flex w-full p-2 bg-[#b6b6b6] gap-2 shadow-stone-700 border-t-4 border-gray-200 font-win98 text-black">
 
@@ -15,4 +15,4 @@ function Action_Bar() {
         </div>
     );
 }
-export default Action_Bar;
+export default Taskbar;
